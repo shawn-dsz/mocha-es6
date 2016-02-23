@@ -1,0 +1,23 @@
+{
+  "name": "ten-pin",
+  "version": "1.0.0",
+  "description": "boilerplate for test es2015 apps with mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "start": "budo index.js --live",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "author": "shawndsouza@outlook.com",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "babel": "^5.4.7",
+    "babelify": "^6.1.2"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
