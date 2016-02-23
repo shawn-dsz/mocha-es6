@@ -1,4 +1,5 @@
 import Game from '../game'
+import {expect} from 'chai'
 
 var assert = require('assert');
 describe('Game', function() {
@@ -8,7 +9,7 @@ describe('Game', function() {
       var game = new Game();
 
       var x = game.start()
-      assert.equal(x, 1);
+      expect(x).to.equal(10)
     });
   });
 });
