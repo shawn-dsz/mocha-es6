@@ -1,7 +1,7 @@
 {
   "name": "ten-pin",
   "version": "1.0.0",
-  "description": "boilerplate for test es2015 apps with mocha",
+  "description": "boilerplate for testing es2015 apps with mocha",
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register",
