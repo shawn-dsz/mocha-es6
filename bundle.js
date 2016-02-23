@@ -9,22 +9,22 @@ var _createClass = (function () { function defineProperties(target, props) { for
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var BowlingGame = (function () {
-  function BowlingGame() {
-    _classCallCheck(this, BowlingGame);
+var Game = (function () {
+  function Game() {
+    _classCallCheck(this, Game);
   }
 
-  _createClass(BowlingGame, [{
+  _createClass(Game, [{
     key: "start",
     value: function start() {
       return 1;
     }
   }]);
 
-  return BowlingGame;
+  return Game;
 })();
 
-exports["default"] = BowlingGame;
+exports["default"] = Game;
 module.exports = exports["default"];
 
 },{}],2:[function(require,module,exports){
@@ -32,11 +32,11 @@ module.exports = exports["default"];
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-var _bowlingGame = require('./bowlingGame');
+var _game = require('./game');
 
-var _bowlingGame2 = _interopRequireDefault(_bowlingGame);
+var _game2 = _interopRequireDefault(_game);
 
-var r = new _bowlingGame2['default']();
-r.start();
+var g = new _game2['default']();
+g.start();
 
-},{"./bowlingGame":1}]},{},[2]);
+},{"./game":1}]},{},[2]);
